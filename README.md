@@ -8,7 +8,7 @@ Within your python environment (virtual or otherwise)
 pip -r requirements.txt
 ```
 
-This will install the [ASE](https://ase-lib.org/) (for building supercells), GSD(https://gsd.readthedocs.io/en/v4.2.0/python-module-gsd.hoomd.html) (for writing structures in a format which [Hoomd-Blue](https://hoomd-blue.readthedocs.io/en/v6.0.0/) can read) and Numpy. Any recent version of these will suffice. Only minimal functionality is used.
+This will install the [ASE](https://ase-lib.org/) (for building supercells), [GSD](https://gsd.readthedocs.io/en/v4.2.0/python-module-gsd.hoomd.html) (for writing structures in a format which [Hoomd-Blue](https://hoomd-blue.readthedocs.io/en/v6.0.0/) can read) and Numpy. Any recent version of these will suffice. Only minimal functionality is used.
 
 ## Usage
 
