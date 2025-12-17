@@ -212,9 +212,6 @@ def check_sphere_overlaps(position, orientation, prototype, box):
     hmatrix = np.transpose(box)
 
     overlaps = []
-
-    ## Something here is broken. It agrees with HOOMD about whether overlaps are
-    ## present if L=0 (pure hard sphere limit) but not when L=0.5.
     
     # Brute force O(N^2) check for overlaps
     for idim, ipos in enumerate(position):
